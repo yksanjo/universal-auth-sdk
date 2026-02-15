@@ -1,0 +1,35 @@
+{
+  "name": "universal-auth-sdk",
+  "version": "1.0.0",
+  "description": "Universal Authentication SDK - OAuth 2.1, SAML, OIDC with automatic token refresh",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "oauth",
+    "saml", 
+    "oidc",
+    "authentication",
+    "jwt",
+    "pkce"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "jose": "^5.2.0",
+    "uuid": "^9.0.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/uuid": "^9.0.7",
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.2"
+  }
+}
